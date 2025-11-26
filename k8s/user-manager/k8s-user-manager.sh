@@ -198,11 +198,11 @@ case "$1" in
         echo ""
         echo "Examples:"
         echo "  $0 roles"
-        echo "  $0 create iaas-dev                    # Interactive role selection"
-        echo "  $0 create iaas-dev iaas-admin         # Direct role assignment"
+        echo "  $0 create kienlt-dev                    # Interactive role selection"
+        echo "  $0 create kienlt-dev kienlt-admin         # Direct role assignment"
         echo "  $0 list"
-        echo "  $0 permissions iaas-dev"
-        echo "  $0 delete iaas-dev"
+        echo "  $0 permissions kienlt-dev"
+        echo "  $0 delete kienlt-dev"
         exit 1
         ;;
 esac
