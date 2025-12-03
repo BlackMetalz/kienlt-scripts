@@ -1,1 +1,1 @@
-# kienlt-scripts
+For my lazy ass
