@@ -1,3 +1,9 @@
+### ONE HIT - ALL DIE xD
+
+```bash
+mysql -e "SELECT id FROM information_schema.processlist WHERE command='Sleep' AND user NOT IN ('system user', 'event_scheduler', 'repl_user');" -s -N | xargs -I{} mysql -e "KILL {};"
+```
+
 ### Kill all connections sleep > 600 seconds
 - Requirements: need config for `.my.cnf`
 - Script
