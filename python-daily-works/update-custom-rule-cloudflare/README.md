@@ -2,12 +2,15 @@
 
 Automation for easy life, my use case, export IPs from secGroup Openstack then migrate to Cloudflare, it is about ~200 ip.
 
+### Setup API Token
+Permissions: Zone.Zone WAF
+Resource: Your site.
+
 ### Get your fucking ZONE ID
-```bash
-curl -X GET "https://api.cloudflare.com/client/v4/zones?name=your-domain-here" \
-  -H "Authorization: Bearer <CF_API_TOKEN>" \
-  -H "Content-Type: application/json" | python3 -m json.tool | grep '"id"' | head -1
-```
+Section API in Overview of your site.
+
+### Ruleset ID
+Create new rule then save it. After that edit it again, you will see a section "Save with API call", ruleset ID will be there
 
 ### Deploy it!
 ```bash
