@@ -42,7 +42,10 @@
       "Bash(free *)",
       "WebSearch",
       "WebFetch(domain:*)",
-      "Bash(GOCACHE=/tmp/claude/cache TMPDIR=/tmp/claude go build:*)"
+      "Bash(GOCACHE=/tmp/claude/cache TMPDIR=/tmp/claude go build:*)",
+      "Bash(GOCACHE=/tmp/claude/cache TMPDIR=/tmp/claude go build:*)",
+      "Bash(docker compose logs:*)",
+      "Bash(docker compose ps)"
     ],
     "deny": [
       "Bash(rm *)",
