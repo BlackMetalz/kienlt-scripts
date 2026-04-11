@@ -41,7 +41,8 @@
       "Bash(df *)",
       "Bash(free *)",
       "WebSearch",
-      "WebFetch(domain:*)"
+      "WebFetch(domain:*)",
+      "Bash(GOCACHE=/tmp/claude/cache TMPDIR=/tmp/claude go build:*)"
     ],
     "deny": [
       "Bash(rm *)",
