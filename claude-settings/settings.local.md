@@ -11,6 +11,7 @@ Then copy this content:
       "Edit",
       "Grep",
       "Glob",
+      "Bash(go version *)",
       "Bash(go mod *)",
       "Bash(go get *)",
       "Bash(go test *)",
