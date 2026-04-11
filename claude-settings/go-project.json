@@ -71,7 +71,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreCompact\",\"additionalContext\":\"GO PROJECT CONTEXT: 1. Use slog for structured logging. 2. Wrap errors using fmt.Errorf with %w. 3. Clean architecture: internal/ for logic, provider interfaces for external deps. 4. go mod tidy after adding deps. 5. Mocking: internal/provider/mock.go. 6. Table-driven tests. 7. Always propagate context.Context as first param.\"}}'",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PreCompact\",\"additionalContext\":\"GO PROJECT CONTEXT: 1. Use slog for structured logging. 2. Wrap errors using fmt.Errorf with %w. 3. Clean architecture: internal/ for logic, provider interfaces for external deps. 4. go mod tidy after adding deps. 5. Mocking: internal/provider/mock.go. 6. Table-driven tests. 7. Always propagate context.Context as first param. 8. LOCALHOST ACCESS: You are fully allowed to curl localhost (ES port 9200, etc.) for debugging\"}}'",
             "timeout": 5
           }
         ]
