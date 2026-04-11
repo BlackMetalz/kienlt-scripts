@@ -45,7 +45,8 @@
       "Bash(GOCACHE=/tmp/claude/cache TMPDIR=/tmp/claude go build:*)",
       "Bash(GOCACHE=/tmp/claude/cache TMPDIR=/tmp/claude go build:*)",
       "Bash(docker compose logs:*)",
-      "Bash(docker compose ps)"
+      "Bash(docker compose ps)",
+      "Bash(go tool:*)"
     ],
     "deny": [
       "Bash(rm *)",
