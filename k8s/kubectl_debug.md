@@ -7,6 +7,10 @@ NODE=<node-name-here-bro>
 kubectl debug node/$NODE -it --image=alpine -- chroot /host sh -c 'du -sh /opt/k8s-volumes/voicebot* 2>/dev/null | sort -h | tail -20'
 # ls command
 kubectl debug node/$NODE -it --image=alpine -- chroot /host sh -c 'ls -l /opt/k8s-volumes/* 2>/dev/null | sort -h | tail -20'
+# Execute commands....
+# Mở shell trên node
+kubectl debug node/$NODE -it --image=alpine -- chroot /host sh
+
 ```
 
 ### Manifest for pod debug
